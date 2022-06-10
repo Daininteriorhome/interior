@@ -142,7 +142,7 @@ dt {
     font-size: 25px;
     line-height: 37px;}
     footer{}
-  
+  .container {padding:20px}
 }
 @media screen and (max-width:822px) {
   footer {
