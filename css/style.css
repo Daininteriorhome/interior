@@ -141,8 +141,11 @@ dt {
   .main-title-text {
     font-size: 25px;
     line-height: 37px;}
-    footer{}
+    .logo-div{
+      margin:0 auto;
+    }
   .container {padding:20px}
+
 }
 @media screen and (max-width:822px) {
   footer {
