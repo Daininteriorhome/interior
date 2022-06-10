@@ -100,12 +100,13 @@ footer {
   background-color: var(--footer);
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 40px ;
   box-sizing: border-box;
   font-family: 'GothicA1-Light';
   line-height: 20px;
   font-size: 14px;
   overflow: hidden;
+
 }
 
 .footer-container {
@@ -139,6 +140,15 @@ dt {
   nav {display: none;}
   .main-title-text {
     font-size: 25px;
-    line-height: 37px;
-  }
+    line-height: 37px;}
+    footer{}
+  
 }
+@media screen and (max-width:822px) {
+  footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .corp-left {margin-right: 10px;}
+  .corp-right {margin-left: 10px;}
+  }
