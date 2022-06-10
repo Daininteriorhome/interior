@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'GothicA1-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  --main-color: #3B5A6C;
+  --main-font: #E6E6E6;
+  --footer: #C9C9C7;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  font-family: 'GothicA1-Light';
+
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 20px 130px;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+}
+
+header h2 a {
+  width: 160px;
+  display: flex;
+}
+
+nav ul {
+  font-size: 16px;
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  margin-right: 70px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--main-font);
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.main-imgs {
+  background: url(../img/bedroom-7132435_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  margin-top: -130px;
+}
+
+.main-title-text {
+  font-size: 70px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 80px;
+  font-family: 'GothicA1-Light';
+}
+
+.main-title-text p {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+footer {
+  height: 20vh;
+  margin: 0 auto;
+  display: flex;
+  background-color: var(--footer);
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  box-sizing: border-box;
+  font-family: 'GothicA1-Light';
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.corp-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.corp-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.corp-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+dt {
+  font-weight: 600;
+}
