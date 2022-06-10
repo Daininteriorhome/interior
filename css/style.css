@@ -139,7 +139,7 @@ dt {
   font-weight: 600;
 }
 
-@media screen and (max-width:914px) {
+@media screen and (max-width:845px) {
   nav {
     display: none;
   }
