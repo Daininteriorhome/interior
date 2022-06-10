@@ -11,7 +11,7 @@
 }
 
 header {
-  width: 100%;
+  min-width : 920px;
   overflow: hidden;
   font-family: 'GothicA1-Light';
 
@@ -136,24 +136,4 @@ footer {
 
 dt {
   font-weight: 600;
-}
-@media screen and (max-width:920px) {
-  header {
-    width: 100%;
-    padding-left: 30px;
-    overflow: hidden;
-  }
-  .container  {
-    margin-left : -50px;
-    overflow: hidden;
-
-  }
-  header .container ul {
-      display: none;
-      overflow: hidden;
-  }    
-  footer {
-    padding-top: 120px;
-  padding-bottom: 90px;}
-
 }
