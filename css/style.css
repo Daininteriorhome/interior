@@ -143,7 +143,15 @@ dt {
   nav {
     display: none;
   }
-
+  .main-title-text p {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  .main-title-text h2 {
+    display: flex;
+  }
+.main-imgs {}
   .main-title-text {
     font-size: 25px;
     line-height: 37px;
